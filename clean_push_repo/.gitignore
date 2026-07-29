@@ -1,7 +1,0 @@
-.venv/
-.gitportable/
-credit_card_transactions.csv
-__pycache__/
-*.pyc
-.DS_Store
-.ipynb_checkpoints/
