@@ -1,6 +1,9 @@
 .venv/
 .gitportable/
 credit_card_transactions.csv
+clean_push_repo/
+run_output.txt
+MinGit.zip
 __pycache__/
 *.pyc
 .DS_Store

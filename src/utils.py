@@ -9,7 +9,7 @@ def encode_and_scale(X_train: pd.DataFrame, X_val: pd.DataFrame):
     categorical_cols = [col for col in X_train.columns if X_train[col].dtype == "object"]
 
     scaler = StandardScaler()
-    encoder = OneHotEncoder(handle_unknown="ignore", sparse=False)
+    encoder = OneHotEncoder(handle_unknown="ignore", sparse_output=False)
 
     X_train_num = scaler.fit_transform(X_train[numeric_cols])
     X_val_num = scaler.transform(X_val[numeric_cols])

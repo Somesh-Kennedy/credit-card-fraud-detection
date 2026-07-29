@@ -1,11 +1,13 @@
 import numpy as np
 import pandas as pd
+from pathlib import Path
 from sklearn.model_selection import train_test_split
 
-DATA_PATH = "../credit_card_transactions.csv"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_PATH = PROJECT_ROOT / "credit_card_transactions.csv"
 
 
-def load_data(path: str = DATA_PATH) -> pd.DataFrame:
+def load_data(path: Path = DATA_PATH) -> pd.DataFrame:
     df = pd.read_csv(path)
     return df
 
