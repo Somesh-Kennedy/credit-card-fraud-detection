@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-An end-to-end fraud detection pipeline using the provided Kaggle-style credit card transaction dataset.
+An end-to-end fraud detection pipeline using the provided Kaggle credit card transaction dataset.
 
 ## Project structure
 
