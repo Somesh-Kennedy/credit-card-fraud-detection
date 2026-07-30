@@ -12,7 +12,7 @@ An end-to-end fraud detection pipeline using the provided Kaggle credit card tra
   - `eda.ipynb` - exploratory data analysis and visualization
 - `requirements.txt` - Python dependencies
 - `README.md` - project overview and setup instructions
-- `credit_card_transactions.csv` - dataset
+- `credit_card_transactions.csv` - dataset (present in Kaggle)
 
 ## Setup
 
