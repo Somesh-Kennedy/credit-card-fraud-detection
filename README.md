@@ -36,6 +36,6 @@ An end-to-end fraud detection pipeline using the provided Kaggle credit card tra
    ```
 
 ## Notes
-- Uses SMOTE for class balancing
-- Contains numeric and categorical feature engineering
-- Targets `is_fraud` for binary classification
+- Uses SMOTE for class balancing.
+- Contains numeric and categorical feature engineering.
+- Targets `is_fraud` for binary classification.
