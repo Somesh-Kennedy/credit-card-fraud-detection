@@ -1,10 +1,24 @@
-.venv/
-.gitportable/
+# --- Data (too large for GitHub; re-creatable) -------------------------------
+# Raw Kaggle CSV (~340 MB) — download it into dataset/ yourself (see README).
+dataset/
 credit_card_transactions.csv
-clean_push_repo/
-run_output.txt
-MinGit.zip
+# Parquet caches and scored outputs written by `python -m fraud.train`.
+data/
+
+# --- Trained models (re-creatable with `python -m fraud.train`) --------------
+models/
+
+# --- Python / tooling --------------------------------------------------------
+.venv/
 __pycache__/
 *.pyc
-.DS_Store
+*.egg-info/
+.pytest_cache/
 .ipynb_checkpoints/
+
+# --- OS / local leftovers ----------------------------------------------------
+.DS_Store
+.gitportable/
+MinGit.zip
+clean_push_repo/
+run_output.txt

@@ -1,6 +1,23 @@
-pandas
-numpy
-scikit-learn
-imbalanced-learn
-matplotlib
-seaborn
+# Core data stack
+pandas>=2.2          # dataframes
+numpy>=1.26          # vectorised maths
+pyarrow>=15          # fast Parquet caching of the 1.3M-row dataset
+
+# Machine learning
+scikit-learn>=1.5    # preprocessing, logistic regression, K-Means, Isolation Forest, metrics
+imbalanced-learn>=0.12  # SMOTE + a Pipeline that only resamples during training
+lightgbm>=4.3        # gradient-boosted trees (main model) + built-in SHAP values
+joblib>=1.3          # saving / loading the trained model bundle
+
+# Visualisation + dashboard
+matplotlib>=3.8      # static report figures (reports/figures)
+seaborn>=0.13        # nicer statistical plots in the EDA notebook
+plotly>=5.20         # interactive charts and maps in the dashboard
+streamlit>=1.50      # the web dashboard (app/streamlit_app.py)
+
+# Development
+pytest>=8            # unit tests (tests/)
+jupyter              # running the EDA notebook
+nbformat
+nbconvert
+ipykernel
